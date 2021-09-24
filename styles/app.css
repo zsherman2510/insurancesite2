@@ -170,3 +170,53 @@ nav.nav--primary {
 .nav_socials span{
     margin-left: 10px;
 }
+/* Hero */
+
+.hero {
+    background-image: url("/images/hero.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.nav_sub{
+    display: none;
+}
+
+@media screen and (min-width: 992px){
+    .nav_sub {
+        display: flex;
+    }
+}
+
+.nav_sub a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.contact_us{
+    margin-left: auto;
+    margin-right: 0;
+    padding: 15px 10px;
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    color: var(--white);
+}
+
+.contact_info{
+    margin-left: 10px;
+}
+
+.contact_info_available {
+    margin-bottom: 10px;
+}
+
+.hero_text{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 56px;
+}
