@@ -137,3 +137,36 @@ table {
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+:root {
+    --primary: #083D77;
+    --secondary: #FFC857;
+    --white: #ffffff;
+    --grey: #eee;
+    --bluegrey: #55aaff41;
+}
+
+nav {
+    padding: 25px 6%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.nav--primary {
+    background-color: var(--secondary);
+}
+
+.nav-logo {
+    width: 250px;
+}
+
+.nav_menu {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_socials span{
+    margin-left: 10px;
+}
