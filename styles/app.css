@@ -167,9 +167,10 @@ nav.nav--primary {
     justify-content: space-between;
 }
 
-.nav_socials span{
+.nav_socials span {
     margin-left: 10px;
 }
+
 /* Hero */
 
 .hero {
@@ -180,22 +181,22 @@ nav.nav--primary {
     object-fit: cover;
 }
 
-.nav_sub{
+.nav_sub {
     display: none;
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
     .nav_sub {
         display: flex;
     }
 }
 
-.nav_sub a{
+.nav_sub a {
     text-decoration: none;
     color: var(--primary);
 }
 
-.contact_us{
+.contact_us {
     margin-left: auto;
     margin-right: 0;
     padding: 15px 10px;
@@ -207,7 +208,7 @@ nav.nav--primary {
     color: var(--white);
 }
 
-.contact_info{
+.contact_info {
     margin-left: 10px;
 }
 
@@ -215,7 +216,7 @@ nav.nav--primary {
     margin-bottom: 10px;
 }
 
-.hero_text{
+.hero_text {
     margin-top: 15px;
     text-align: center;
     font-size: 56px;
@@ -236,26 +237,29 @@ nav.nav--primary {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 700px){
-    .email_capture{
+@media screen and (max-width: 700px) {
+    .email_capture {
         flex-direction: column;
     }
 }
 
-.email_header h1{
-   font-size: 24px;
-   margin-bottom: 25px;
-   line-height: 25px; 
+.email_header h1 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    line-height: 25px;
 }
 
-.email_capture input[type=text], input[type=number], select {
+.email_capture input[type=text],
+input[type=number],
+select {
     width: 95%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
-.email_capture input[type=number], select {
+.email_capture input[type=number],
+select {
     width: 47%;
 }
 
@@ -266,4 +270,107 @@ button {
     padding: 10px 12px;
     width: 95%;
     border-radius: 2px;
+}
+
+section#insurance_section {
+    margin: 20px auto;
+}
+
+section h1 {
+    margin: 48px auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.icon_background {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: var(--grey);
+}
+
+.icon_background i {
+    color: var(--primary);
+}
+
+.insurance_types {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.insurance_box {
+    max-width: 300px;
+    background: var(--white);
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(211, 211, 211, 0.568);
+    padding: 24px;
+}
+
+.insurance_box:hover {
+    background-color: var(--secondary);
+}
+
+.insurance_box-title {
+    font-size: 1.1rem;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    color: rgba(0 0 0 0.8);
+    margin: 10px auto;
+}
+
+.insurance_box-subtext {
+    color: #808080;
+    margin: 10px auto;
+    line-height: 30px;
+}
+
+section#content-pitch {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+}
+
+#content-pitch img {
+    max-width: 350px;
+    height: 330px;
+    background-position: center;
+    background-size: cover;
+    margin: 3rem auto;
+}
+
+.pitch {
+    width: 100%;
+    max-width: 550px;
+    margin: 3rem auto;
+}
+
+.pitch_title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgba(0 0 0 0.8);
+}
+
+.sub_title{
+    margin: 1.2rem auto;
+    color: #888888;
+    line-height: 25px;
+}
+
+.pitch_checklist div {
+    margin: 1.2rem auto;
+}
+
+.pitch_checklist i {
+    color: #888888;
+    margin: auto .8rem;
+}
+
+.pitch_checklist span {
+    color: #888888;
 }
