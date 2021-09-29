@@ -220,3 +220,50 @@ nav.nav--primary {
     text-align: center;
     font-size: 56px;
 }
+
+.email_capture {
+    background: var(--secondary);
+    display: flex;
+    flex-direction: row-flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+    padding: 40px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px){
+    .email_capture{
+        flex-direction: column;
+    }
+}
+
+.email_header h1{
+   font-size: 24px;
+   margin-bottom: 25px;
+   line-height: 25px; 
+}
+
+.email_capture input[type=text], input[type=number], select {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.email_capture input[type=number], select {
+    width: 47%;
+}
+
+button {
+    background: var(--primary);
+    color: var(--grey);
+    border: none;
+    padding: 10px 12px;
+    width: 95%;
+    border-radius: 2px;
+}
