@@ -374,3 +374,78 @@ section#content-pitch {
 .pitch_checklist span {
     color: #888888;
 }
+
+section#faq{
+    background: var(--grey);
+    padding-top: 1rem;
+}
+
+.faq_container{
+    padding: 0 2rem 2rem;
+    text-align: center;
+}
+
+.accordion_group{
+    margin: .8rem auto;
+    width: 100%;
+}
+
+.accordion{
+    background-color: var(--secondary);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    max-width: 550px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.accordion:after{
+    content: '\02795';
+    font-size: 13px;
+    color: #eee;
+    float: right;
+    margin-left: 5px;
+}
+
+.active,
+.accordion:hover{
+    background-color: #ccc;
+}
+
+.active:after{
+    content: '\2796';
+}
+
+.panel{
+    text-align: left;
+    background-color: white;
+    overflow:hidden;
+    /* max-height: 0; */
+    max-width: 550px;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+
+.faq{
+    margin: 1rem auto;
+}
+
+.faq h3{
+    font-size: 1.1rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 1.1rem;
+}
+
+.faq p {
+    color: #444;
+    font-size: .8rem;
+    line-height: 20px;
+}
