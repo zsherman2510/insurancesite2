@@ -356,7 +356,7 @@ section#content-pitch {
     color: rgba(0 0 0 0.8);
 }
 
-.sub_title{
+.sub_title {
     margin: 1.2rem auto;
     color: #888888;
     line-height: 25px;
@@ -375,22 +375,22 @@ section#content-pitch {
     color: #888888;
 }
 
-section#faq{
+section#faq {
     background: var(--grey);
     padding-top: 1rem;
 }
 
-.faq_container{
+.faq_container {
     padding: 0 2rem 2rem;
     text-align: center;
 }
 
-.accordion_group{
+.accordion_group {
     margin: .8rem auto;
     width: 100%;
 }
 
-.accordion{
+.accordion {
     background-color: var(--secondary);
     color: #444;
     cursor: pointer;
@@ -406,7 +406,7 @@ section#faq{
     margin: 0 auto;
 }
 
-.accordion:after{
+.accordion:after {
     content: '\02795';
     font-size: 13px;
     color: #eee;
@@ -415,30 +415,30 @@ section#faq{
 }
 
 .active,
-.accordion:hover{
+.accordion:hover {
     background-color: #ccc;
 }
 
-.active:after{
+.active:after {
     content: '\2796';
 }
 
-.panel{
+.panel {
     text-align: left;
     background-color: white;
-    overflow:hidden;
+    overflow: hidden;
     max-height: 0;
     max-width: 510px;
-    
+
     margin: 0 auto;
     transition: 0.4s;
 }
 
-.faq{
+.faq {
     margin: 1rem auto;
 }
 
-.faq h3{
+.faq h3 {
     font-size: 1.1rem;
     color: var(--primary);
     font-weight: 600;
@@ -449,4 +449,64 @@ section#faq{
     color: #444;
     font-size: .8rem;
     line-height: 20px;
+}
+
+footer {
+    padding: 20px;
+    background: rgb(26, 26, 26);
+    color: rgb(160, 160, 160);
+}
+
+footer .row {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+footer .col {
+    display: inline-block;
+    max-width: 250px;
+    margin: 1rem auto;
+}
+
+footer .col .title {
+    color: #eee;
+    margin-bottom: 1rem;
+}
+
+footer .col .info {
+    margin-bottom: .7rem;
+    font-size: .8rem;
+}
+
+.phone {
+    color: var(--secondary);
+}
+
+footer .legal {
+    text-align: center;
+    padding: 10px;
+}
+
+.legal a {
+    margin: 20px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 20px auto;
+}
+
+footer input[type=text] {
+    width: 95%;
+    padding: 10px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #444;
 }
